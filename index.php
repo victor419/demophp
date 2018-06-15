@@ -1,0 +1,9 @@
+<pre>
+    <?php 
+        //print_r(get_loaded_extensions()); 
+        print_r($_ENV['USER']); 
+        print_r(getenv('SHELL'));
+        print_r($_SERVER);
+        phpinfo();
+    ?>
+</pre>
